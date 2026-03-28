@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* RESET */
 *{
     margin:0;
     padding:0;
@@ -13,7 +12,6 @@ body{
     color:white;
 }
 
-/* NAV */
 header{
     position:fixed;
     width:100%;
@@ -49,7 +47,6 @@ nav a:hover{
     color:#f4a261;
 }
 
-/* HERO */
 .hero{
     height:100vh;
     display:flex;
@@ -88,7 +85,6 @@ nav a:hover{
     transform:scale(1.05);
 }
 
-/* BENTO */
 .bento{
     padding:100px 8%;
 }
@@ -125,7 +121,6 @@ nav a:hover{
     grid-column:span 2;
 }
 
-/* HIGHLIGHT */
 .highlight{
     padding:80px 8%;
 }
@@ -138,7 +133,6 @@ nav a:hover{
     color:black;
 }
 
-/* TESTIMONIALS (MODERN SCROLL) */
 .testimonials{
     padding:100px 8%;
 }
@@ -177,7 +171,6 @@ nav a:hover{
     margin-bottom:10px;
 }
 
-/* MASONRY GALLERY */
 .gallery{
     padding:100px 8%;
 }
@@ -209,14 +202,12 @@ nav a:hover{
     transform:scale(1.05);
 }
 
-/* FOOTER */
 footer{
     text-align:center;
     padding:20px;
     background:black;
 }
 
-/* RESPONSIVE */
 @media(max-width:900px){
     .bento-grid{
         grid-template-columns:1fr;
